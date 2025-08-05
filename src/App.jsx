@@ -19,7 +19,7 @@ const games = [
   },
   {
     title: 'Card Breaker AI Lab',
-    description: 'An Uno-inspired card game where the AI plays forever. Also, charts and graphs here too.',
+    description: 'An Uno-inspired card game where the AI plays forever. More charts and graphs here.',
     imageUrl: cardGameImage,
     imageAlt: 'A screenshot of the Card Game',
     playUrl: 'https://mtickle.github.io/card-game/',
@@ -66,7 +66,7 @@ function App() {
     <div className="container mx-auto p-4">
       <Header />
 
-      <div className="p-6 md:p-8 bg-white rounded-b-3xl shadow-sm mb-4">
+      <div className="p-6 md:p-8 bg-white shadow-sm mb-0">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {games.map((game) => (
             <GameCard
