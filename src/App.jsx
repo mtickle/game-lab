@@ -3,6 +3,7 @@ import diceGameImage from '@assets/dice-game.png';
 import midiAppImage from '@assets/midi-app.png';
 import patrolXImage from '@assets/patrolx.png';
 import spaceGame3dImage from '@assets/space-game-3d.png';
+import spaceGameImage from '@assets/space-game.png';
 import vinDecoderImage from '@assets/vin-decoder.png';
 import GameCard from '@components/GameCard';
 import Footer from '@layouts/Footer';
@@ -28,7 +29,7 @@ const games = [
   {
     title: 'Space Game',
     description: 'An experiment in procedural generation and space exploration. Pan, scan, and click to explore the universe.',
-    imageUrl: spaceGame3dImage,
+    imageUrl: spaceGameImage,
     imageAlt: 'A screenshot of the Space Game',
     playUrl: 'https://mtickle.github.io/space-game/',
     buttonText: 'Play it now',
