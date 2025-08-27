@@ -1,5 +1,6 @@
 import cardGameImage from '@assets/card-game.png';
 import diceGameImage from '@assets/dice-game.png';
+import displayPanelImage from '@assets/display-panel.png';
 import midiAppImage from '@assets/midi-app.png';
 import patrolXImage from '@assets/patrolx.png';
 import spaceGame3dImage from '@assets/space-game-3d.png';
@@ -10,6 +11,14 @@ import Footer from '@layouts/Footer';
 import Header from '@layouts/Header';
 
 const games = [
+  {
+    title: 'Display Panel Lab',
+    description: 'A completely useless, albeit mesmerizing, experiment in random colorful things..',
+    imageUrl: displayPanelImage,
+    imageAlt: 'A screenshot of the game',
+    playUrl: 'https://mtickle.github.io/display-panel-lab/',
+    buttonText: 'Give me a seizure',
+  },
   {
     title: 'Dice Breaker AI Lab',
     description: 'A Yahztee-inspired dice game where the AI plays forever. Also, charts and graphs.',
