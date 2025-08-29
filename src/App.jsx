@@ -5,6 +5,7 @@ import midiAppImage from '@assets/midi-app.png';
 import patrolXImage from '@assets/patrolx.png';
 import spaceGame3dImage from '@assets/space-game-3d.png';
 import spaceGameImage from '@assets/space-game.png';
+import ticTacToeImage from '@assets/tic-tac-toe-game.png';
 import vinDecoderImage from '@assets/vin-decoder.png';
 import GameCard from '@components/GameCard';
 import Footer from '@layouts/Footer';
@@ -12,8 +13,16 @@ import Header from '@layouts/Header';
 
 const games = [
   {
+    title: 'Tic-Tac-Toe Lab',
+    description: 'Watch two AIs play Tic-Tac-Toe against each other.',
+    imageUrl: ticTacToeImage,
+    imageAlt: 'A screenshot of the game',
+    playUrl: 'https://mtickle.github.io/tic-tac-toe-lab/',
+    buttonText: 'Sure, why not?',
+  },
+  {
     title: 'Display Panel Lab',
-    description: 'A completely useless, albeit mesmerizing, experiment in random colorful things..',
+    description: 'A completely useless, albeit mesmerizing, experiment in random colorful things.',
     imageUrl: displayPanelImage,
     imageAlt: 'A screenshot of the game',
     playUrl: 'https://mtickle.github.io/display-panel-lab/',
