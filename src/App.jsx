@@ -1,3 +1,4 @@
+import blackjackImage from '@assets/blackjack-lab.png';
 import cardGameImage from '@assets/card-game.png';
 import diceGameImage from '@assets/dice-game.png';
 import displayPanelImage from '@assets/display-panel.png';
@@ -60,6 +61,14 @@ const games = [
     buttonText: 'Play it now',
   },
   {
+    title: 'Blackjack Lab',
+    description: 'Another AI experiment, this time with Blackjack. Watch two AIs play against each other until the money runs dry.',
+    imageUrl: blackjackImage,
+    imageAlt: 'A screenshot of the Puzzle Game',
+    playUrl: 'https://mtickle.github.io/blackjack-lab/',
+    buttonText: 'Never tell me the odds.',
+  },
+  {
     title: 'VIN Decoder',
     description: 'Enter a VIN to decode it. This tool provides detailed information about vehicles based on their VIN.',
     imageUrl: vinDecoderImage,
@@ -93,7 +102,7 @@ function App() {
       <Header />
 
       <div className="p-6 md:p-8 bg-white shadow-sm mb-0">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {games.map((game) => (
             <GameCard
               key={game.title}
