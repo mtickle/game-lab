@@ -4,7 +4,6 @@ import diceGameImage from '@assets/dice-game.png';
 import displayPanelImage from '@assets/display-panel.png';
 import midiAppImage from '@assets/midi-app.png';
 import patrolXImage from '@assets/patrolx.png';
-import spaceGame3dImage from '@assets/space-game-3d.png';
 import spaceGameImage from '@assets/space-game.png';
 import ticTacToeImage from '@assets/tic-tac-toe-game.png';
 import vinDecoderImage from '@assets/vin-decoder.png';
@@ -52,13 +51,6 @@ const games = [
     imageUrl: spaceGameImage,
     imageAlt: 'A screenshot of the Space Game',
     playUrl: 'https://mtickle.github.io/space-game/',
-    buttonText: 'Play it now',
-  }, {
-    title: 'Space Game 3D',
-    description: 'Semi-functioning experiment in using the Space Game API to render stuff in 3D. Your browser will hate you.',
-    imageUrl: spaceGame3dImage,
-    imageAlt: 'A screenshot of the Space Game',
-    playUrl: 'https://mtickle.github.io/space-game-3d/',
     buttonText: 'Play it now',
   },
   {
