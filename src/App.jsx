@@ -21,14 +21,7 @@ const games = [
     playUrl: 'https://mtickle.github.io/tic-tac-toe-lab/',
     buttonText: 'Sure, why not?',
   },
-  {
-    title: 'Display Panel Lab',
-    description: 'A completely useless, albeit mesmerizing, experiment in random colorful things.',
-    imageUrl: displayPanelImage,
-    imageAlt: 'A screenshot of the game',
-    playUrl: 'https://mtickle.github.io/display-panel-lab/',
-    buttonText: 'Give me a seizure',
-  },
+
   {
     title: 'Dice Breaker AI Lab',
     description: 'A Yahztee-inspired dice game where the AI plays forever. Also, charts and graphs.',
@@ -46,6 +39,14 @@ const games = [
     buttonText: 'Play it now',
   },
   {
+    title: 'Blackjack Lab',
+    description: 'Another AI experiment, this time with Blackjack. Watch two AIs play against each other until the money runs dry.',
+    imageUrl: blackjackImage,
+    imageAlt: 'A screenshot of the Puzzle Game',
+    playUrl: 'https://mtickle.github.io/blackjack-lab/',
+    buttonText: 'Never tell me the odds.',
+  },
+  {
     title: 'Space Game',
     description: 'An experiment in procedural generation and space exploration. Pan, scan, and click to explore the universe.',
     imageUrl: spaceGameImage,
@@ -61,13 +62,14 @@ const games = [
     buttonText: 'Play it now',
   },
   {
-    title: 'Blackjack Lab',
-    description: 'Another AI experiment, this time with Blackjack. Watch two AIs play against each other until the money runs dry.',
-    imageUrl: blackjackImage,
-    imageAlt: 'A screenshot of the Puzzle Game',
-    playUrl: 'https://mtickle.github.io/blackjack-lab/',
-    buttonText: 'Never tell me the odds.',
+    title: 'Display Panel Lab',
+    description: 'A completely useless, albeit mesmerizing, experiment in random colorful things.',
+    imageUrl: displayPanelImage,
+    imageAlt: 'A screenshot of the game',
+    playUrl: 'https://mtickle.github.io/display-panel-lab/',
+    buttonText: 'Give me a seizure',
   },
+
   {
     title: 'VIN Decoder',
     description: 'Enter a VIN to decode it. This tool provides detailed information about vehicles based on their VIN.',
