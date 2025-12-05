@@ -2,6 +2,7 @@ import blackjackImage from '@assets/blackjack-lab.png';
 import cardGameImage from '@assets/card-game.png';
 import diceGameImage from '@assets/dice-game.png';
 import displayPanelImage from '@assets/display-panel.png';
+import mfaGameImage from '@assets/mfa-game.png';
 import midiAppImage from '@assets/midi-app.png';
 import patrolXImage from '@assets/patrolx.png';
 import spaceGameImage from '@assets/space-game.png';
@@ -12,6 +13,15 @@ import Footer from '@layouts/Footer';
 import Header from '@layouts/Header';
 
 const games = [
+  {
+    title: 'MFA Game',
+    description: 'How do you handle pressure? Try to remember MFA codes while taking fire.',
+    imageUrl: mfaGameImage,
+    imageAlt: 'A screenshot of the game',
+    playUrl: 'https://mtickle.github.io/mfa-game/',
+    buttonText: 'Which arm is the heart attack arm?',
+  },
+
   {
     title: 'Tic-Tac-Toe Lab',
     description: 'Watch two AIs play Tic-Tac-Toe against each other.',
